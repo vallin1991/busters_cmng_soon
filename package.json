@@ -1,0 +1,17 @@
+{
+  "name": "buster_coming_soon",
+  "version": "1.0.0",
+  "description": "Creating the server for the email API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrclean1991",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mailchimp-api-v3": "^1.15.0"
+  }
+}
